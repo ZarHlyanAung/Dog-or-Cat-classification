@@ -50,6 +50,7 @@ elif uploaded_file is not None:
     genrate = st.button('Genrate Prediction')
     if genrate:
         prediction = model.predict(img_reshape)
+        st.success(prediction)
         if prediction >= 0.5:
             st.header("Dog")
         else:
