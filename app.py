@@ -17,7 +17,7 @@ from tensorflow.keras.applications.mobilenet_v2 import preprocess_input as mobil
 @st.cache_data
 def loadModel():
     model = tf.keras.models.load_model(
-        "version-nine-from-five.h5", compile=False)
+        "current.h5", compile=False)
     return model
 
 
