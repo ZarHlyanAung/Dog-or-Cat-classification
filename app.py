@@ -12,15 +12,15 @@ def loadModel():
 model = loadModel()
 
 # Define the Streamlit app
-def app():
+# def app():
     # Set the title and sidebar
-    st.title('Cat vs Dog Classifier')
-    st.sidebar.title('Upload Image')
+st.title('Cat vs Dog Classifier')
+st.sidebar.title('Upload Image')
     
     # Create a file uploader in the sidebar
-    uploaded_file = st.sidebar.file_uploader('Upload an image', type=['jpg', 'jpeg', 'png'])
+uploaded_file = st.sidebar.file_uploader('Upload an image', type=['jpg', 'jpeg', 'png'])
     
-    if uploaded_file is not None:
+if uploaded_file is not None:
         # Read the uploaded image
         image = Image.open(uploaded_file)
         
@@ -40,4 +40,4 @@ def app():
         # Display the predicted label
         st.write('Predicted Label:', predicted_label)
         
-  app()
+
