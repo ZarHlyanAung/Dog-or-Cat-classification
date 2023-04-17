@@ -11,7 +11,7 @@ https://www.kaggle.com/code/zarhlyanaung/not-breaking-heart
 Convolutional Neural Networks (CNNs) explained
 https://youtu.be/YRhxdVk_sIs
 
-https://sarathpanat.medium.com/all-about-convolutional-neural-network-cnn-6ccce6738958#:~:text=A%20Convolutional%20Neural%20Network%20%28CNN%29%20is%20a%20type,up%20the%20image%20into%20features%20and%20analyzes%20them
+https://sarathpanat.medium.com/all-about-convolutional-neural-network-cnn-6ccce6738958
 
 https://medium.com/@ageitgey/machine-learning-is-fun-part-3-deep-learning-and-convolutional-neural-networks-f40359318721
 
