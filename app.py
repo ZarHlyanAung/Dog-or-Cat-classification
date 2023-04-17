@@ -39,3 +39,5 @@ def app():
         
         # Display the predicted label
         st.write('Predicted Label:', predicted_label)
+        
+  app()
