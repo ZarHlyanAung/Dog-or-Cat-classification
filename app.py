@@ -35,10 +35,15 @@ if uploaded_file is not None:
         
         # Make predictions with the model
         prediction = model.predict(image)
-        predicted_label = 'cat' if prediction[0][0] > 0.5 else 'dog' # Assuming threshold of 0.5 for binary classification
+        predicted_label = 'I am Gyinn'
+        
+        if(prediction[0][0] >= 0.5):
+            predicted_label = 'Dog'
+        else:
+            predicted_label = 'Cat'
         
         # Display the predicted label
-        st.write('Predicted Label:', predicted_label)
+        st.write('Predicted Label: ', predicted_label)
         st.write(prediction[0][0])
         
 
