@@ -39,5 +39,6 @@ if uploaded_file is not None:
         
         # Display the predicted label
         st.write('Predicted Label:', predicted_label)
+        st.write(prediction[0][0])
         
 
