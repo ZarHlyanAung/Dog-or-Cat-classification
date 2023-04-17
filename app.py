@@ -1,6 +1,15 @@
 import streamlit as st
 from PIL import Image
 import numpy as np
+import tensorflow as tf
+
+def loadModel():
+    model = tf.keras.models.load_model(
+        "gyinn-koung.h5")
+    return model
+
+
+model = loadModel()
 
 # Define the Streamlit app
 def app():
