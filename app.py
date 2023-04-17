@@ -43,7 +43,7 @@ if uploaded_file is not None:
             predicted_label = 'Cat'
         
         # Display the predicted label
-        st.write('Predicted Label: ', predicted_label)
+        st.success('Predicted Label: ', predicted_label)
         st.write(prediction[0][0])
         
 
