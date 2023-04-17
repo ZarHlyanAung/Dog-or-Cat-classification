@@ -3,6 +3,9 @@
 ## demo
 https://zarhlyanaung-dog-or-cat-classification-app-1f4vsa.streamlit.app/
 
+## training code, Kaggle
+https://www.kaggle.com/code/zarhlyanaung/not-breaking-heart
+
 ## for nerds
 
 https://medium.com/@ageitgey/machine-learning-is-fun-part-3-deep-learning-and-convolutional-neural-networks-f40359318721
