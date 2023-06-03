@@ -1,5 +1,9 @@
 # Dog-or-Cat-classification
 
+# Just look this, talked and trained in this recording
+https://youtu.be/ExzSJ4YS40s
+
+
 ## demo
 https://zarhlyanaung-dog-or-cat-classification-app-1f4vsa.streamlit.app/
 
